@@ -1,0 +1,17 @@
+.nav {
+  margin: 0 0 0 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.links {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+  align-items: center;
+}

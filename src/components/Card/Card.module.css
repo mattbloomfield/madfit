@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border-radius: 0.25rem;
+}
+
+.radio {
+  position: absolute;
+  left: -999999px;
+  top: -99999px;
+}
+
+.img {
+  width: 200px;
+}
+
+.span {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}

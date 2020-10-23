@@ -1,0 +1,18 @@
+.container {
+  background: #fff;
+  padding: 8px;
+  margin: 4px;
+  display: block;
+}
+.thumbnail {
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.title {
+  color: #555;
+}

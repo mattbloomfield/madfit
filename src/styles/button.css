@@ -1,0 +1,32 @@
+button,
+input[type="button"],
+.btn {
+  padding: 0.44rem 0.66rem;
+  background: #d2c4cb;
+  color: #4a3540;
+  box-shadow: 0.111rem 0.111rem 0.22rem rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 0.22rem;
+  transition: 0.2s all;
+  outline: 0px;
+}
+
+button:hover,
+input[type="button"]:hover,
+.btn:hover {
+  box-shadow: 0.33rem 0.33rem 0.22rem rgba(0, 0, 0, 0.3);
+}
+
+button:active,
+input[type="button"]:active,
+.btn:active {
+  background: #f2e4eb;
+  box-shadow: 0px 0px 0.22rem rgba(0, 0, 0, 0.3);
+}
+button:focus,
+input[type="button"]:focus,
+.btn:focus {
+  background: #e2d4db;
+}
